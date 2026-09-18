@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://loannow1809.vercel.app/:path*",
+      "permanent": false
+    }
+  ]
+}
