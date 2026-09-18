@@ -1,9 +1,10 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://loannow1809.vercel.app/:path*",
-      "permanent": false
+      "source": "/(.*)",
+      "destination": "https://loannow1809.vercel.app",
+      "statusCode": 307
     }
   ]
 }
